@@ -23,11 +23,19 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "package": "com.nltnup-app",
+        "versionCode": 1
+      },
+      "package": "com.onoyy.nltnupapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "600d89a9-db62-4ab0-92b0-669c9d73d083"
+      }
     }
   }
 }
